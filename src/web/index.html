@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="webApp">
+	<head>
+		<title>charBase - The Home for Your Characters</title>
+
+		<link rel="stylesheet" type="text/css" href="vendor/bower_components/angular-material/angular-material.min.css" />
+		<link rel="stylesheet/less" type="text/css" href="styles/styles.less" />
+	</head>
+	<body>
+		<div ng-controller="MainCtrl">
+			<p>Welcome back, {{name}}</p>
+
+			<ui-view></ui-view>
+		</div>
+		<script src="vendor/bower_components/angular/angular.min.js"></script>
+		<script src="vendor/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+		<script src="vendor/bower_components/angular-animate/angular-animate.min.js"></script>
+		<script src="vendor/bower_components/angular-aria/angular-aria.min.js"></script>
+		<script src="vendor/bower_components/angular-messages/angular-messages.min.js"></script>
+		<script src="vendor/bower_components/angular-material/angular-material.min.js"></script>
+		<script src="vendor/bower_components/less/dist/less.min.js"></script>
+		<script src="vendor/bower_components/lodash/dist/lodash.min.js"></script>
+
+        <script src="app.js"></script>
+        <script src="app-ctrl.js"></script>
+        <script src="charbase.js"></script>
+        <script src="home/home-ctrl.js"></script>
+
+	</body>
+</html>
