@@ -1,0 +1,13 @@
+{
+  "name": "charBase",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "~1.6",
+    "angular-material": "latest",
+    "angular-ui-router": "latest",
+    "lodash": "latest"
+  },
+  "resolutions": {
+    "angular": "~1.6"
+  }
+}
