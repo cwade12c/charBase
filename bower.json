@@ -1,11 +1,12 @@
 {
-  "name": "charBase",
+  "name": "charbase",
   "version": "0.0.0",
   "dependencies": {
     "angular": "~1.6",
-    "angular-material": "latest",
-    "angular-ui-router": "latest",
-    "lodash": "latest"
+    "angular-material": "~1.1",
+    "angular-ui-router": "^1.0.1",
+    "less": "~2.7",
+    "lodash": "~4.17"
   },
   "resolutions": {
     "angular": "~1.6"
